@@ -26,3 +26,8 @@ MacOS/Linux:
 Windows:
 
     mvnw spring-boot:run
+    
+### Swagger
+
+* [API Docs V2](http://localhost:8080/v2/api-docs)
+* [Swagger UI](http://localhost:8080/swagger-ui/index.html#/)
