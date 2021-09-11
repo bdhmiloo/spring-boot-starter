@@ -1,4 +1,4 @@
-package com.bdhmiloo.springbootstarter.controller;
+package com.bdhmiloo.springbootstarter.core.hello.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.bdhmiloo.springbootstarter.configuration;
+package com.bdhmiloo.springbootstarter.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
