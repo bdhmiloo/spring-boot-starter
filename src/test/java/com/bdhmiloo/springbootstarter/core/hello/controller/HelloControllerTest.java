@@ -6,6 +6,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 
@@ -18,19 +20,22 @@ public class HelloControllerTest extends BaseTest {
 	@Autowired
 	public HelloController helloController;
 	
-    @BeforeEach
-    public void setUp() {
-    	super.setUp();
-    }
+	public Logger logger;
+
+	@BeforeEach
+	public void setUp() {
+		super.setUp();
+		
+		logger = (Logger) LoggerFactory.getLogger(HelloControllerTest.class);
+	}
 
 	@Test
 	public void test_sayHello_success() {
 		// given
-		
-		
+
 		// when
 		String response = helloController.sayHello();
-		
+
 		// then
 		assertEquals("Hello World", response);
 	}
