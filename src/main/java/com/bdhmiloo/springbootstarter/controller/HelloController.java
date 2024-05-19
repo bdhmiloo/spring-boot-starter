@@ -1,4 +1,4 @@
-package com.bdhmiloo.springbootstarter.core.hello.controller;
+package com.bdhmiloo.springbootstarter.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
